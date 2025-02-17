@@ -12,11 +12,16 @@ a {
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Roboto;
     margin: 0;
     padding: 0;
     background: #343233;
+    scroll-behavior: smooth;
 }
 
 .container {
