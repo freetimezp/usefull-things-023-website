@@ -135,6 +135,89 @@ nav a#toggle-btn {
     color: #8d8273;
 }
 
+#overview {
+    background: #282627;
+    padding: 8rem 0;
+}
+
+.overview-content {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
+
+#about {
+    padding: 8rem 0;
+}
+
+#about h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 12px;
+    margin-bottom: 2em;
+}
+
+#about h2 i {
+    font-size: 20px;
+}
+
+#features {
+    background: #282627;
+    padding: 8em 0;
+}
+
+.features-content {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
+
+#subscribe {
+    background: #343233;
+    padding: 8em 0;
+}
+
+#subscribe h2 {
+    color: #8d8273;
+}
+
+#subscribe input {
+    width: 80%;
+    margin: 2em 0;
+    background: none;
+    border: 1px solid #8d8273;
+    padding: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: rgb(211, 165, 100);
+    outline: none;
+}
+
+#subscribe input:focus {
+    border: 1px solid #e4b573;
+}
+
+input::placeholder {
+    color: #8d8273;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em 0;
+    background: #282627;
+}
+
+footer span {
+    color: #8d8273;
+    font-weight: 600;
+}
 
 
 @media screen and (max-width: 580px) {
@@ -197,6 +280,18 @@ nav a#toggle-btn {
     }
     .section-hero p {
         display: none;
+    }
+    .overview-content {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: left;
+    }
+    .features-content {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: left;
     }
 }
 
